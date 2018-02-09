@@ -52,7 +52,7 @@
           <li><a class="current" href="/">home</a></li>
           <li><a href="pages/about.html">about</a></li>
 
-          <li><a href="pages/office.html">office/forms/policies</a></li>
+          <li><a href="pages/office.html">forms and policies</a></li>
           <li><a href="pages/contact.html">contact</a></li>
         </ul>
       </nav>
