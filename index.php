@@ -59,15 +59,15 @@
     </header>
     <main class="wrapper-inner">
       <div class="main photo">
-        <div class="photo-space-main">
-        </div>
         <div class="home-box-outer">
-          <p>My psychology practice is positive and affirmative in addressing emotional, cognitive, and behavioral issues concerning developmental changes throughout the life span. I encourage enabling individual empowerment in the creative pursuit and potential realization of my clients’ goals. I use evidence-based methods in cognitive-based and psychoanalytic therapy, hypnotherapy, and sex therapy.</p>
           <ul class="practice-areas">
             <li class="pa-items"><a class="links" href="pages/practice-areas/general-practice.html">General Practice</a></li>
             <li class="pa-items"><a class="links" href="pages/practice-areas/sex-therapy.html">Sex Therapy</a></li>
             <li class="pa-items"><a class="links" href="pages/practice-areas/hypnotherapy.html">Hypnotherapy</a></li>
           </ul>
+          <p>My psychology practice is positive and affirmative in addressing emotional, cognitive, and behavioral issues concerning developmental changes throughout the life span. I encourage enabling individual empowerment in the creative pursuit and potential realization of my clients’ goals. I use evidence-based methods in cognitive-based and psychoanalytic therapy, hypnotherapy, and sex therapy.</p>
+        </div>
+        <div class="photo-space-main">
         </div>
       </div>
     </main>

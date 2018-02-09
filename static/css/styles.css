@@ -1064,11 +1064,13 @@ h6 a {
   border: 1px solid rgba(207, 180, 134, 0.4);
   margin: 0;
   padding: 1rem 1rem .5rem;
+  margin-top: 350px;
 }
 @media only screen and (min-width: 768px) {
   /* line 36, ../../scss/partials/_150-home.scss */
   .main .home-box-outer {
     margin: 0 2rem;
+  margin-top: 450px;
   }
 }
 @media only screen and (min-width: 960px) {
@@ -1076,6 +1078,7 @@ h6 a {
   .main .home-box-outer {
     margin: 0 4rem;
     padding: 1.5rem 1.5rem .5rem;
+    margin-top: 525px;
   }
 }
 /* line 48, ../../scss/partials/_150-home.scss */
