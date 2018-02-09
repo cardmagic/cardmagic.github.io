@@ -1,0 +1,385 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700);
+/* == Styles for www.rogercarlsohphd.com == */
+/* ======================================== */
+/* line 17, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby200/lib/ruby/gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'liberation_serifbold';
+  src: url("../fonts/LiberationSerif-Bold-webfont.eot");
+  src: url("../fonts/LiberationSerif-Bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/LiberationSerif-Bold-webfont.woff") format("woff"), url("../fonts/LiberationSerif-Bold-webfont.ttf") format("truetype"), url("../fonts/LiberationSerif-Bold-webfont.svg#liberation_serifbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'liberation_serifbold_italic';
+  src: url("../fonts/LiberationSerif-BoldItalic-webfont.eot");
+  src: url("../fonts/LiberationSerif-BoldItalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/LiberationSerif-BoldItalic-webfont.woff") format("woff"), url("../fonts/LiberationSerif-BoldItalic-webfont.ttf") format("truetype"), url("../fonts/LiberationSerif-BoldItalic-webfont.svg#liberation_serifbold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'liberation_serifitalic';
+  src: url("../fonts/LiberationSerif-Italic-webfont.eot");
+  src: url("../fonts/LiberationSerif-Italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/LiberationSerif-Italic-webfont.woff") format("woff"), url("../fonts/LiberationSerif-Italic-webfont.ttf") format("truetype"), url("../fonts/LiberationSerif-Italic-webfont.svg#liberation_serifitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'liberation_serifregular';
+  src: url("../fonts/LiberationSerif-Regular-webfont.eot");
+  src: url("../fonts/LiberationSerif-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/LiberationSerif-Regular-webfont.woff") format("woff"), url("../fonts/LiberationSerif-Regular-webfont.ttf") format("truetype"), url("../fonts/LiberationSerif-Regular-webfont.svg#liberation_serifregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 10, ../sass/screen.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 16, ../sass/screen.scss */
+.clear {
+  clear: both;
+}
+
+/* line 19, ../sass/screen.scss */
+html {
+  background-color: #c9cbd6;
+  color: #484e64;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.3em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 32, ../sass/screen.scss */
+p {
+  padding-bottom: 0.5em;
+}
+
+/* line 35, ../sass/screen.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "liberation_serifregular", serif;
+  font-weight: normal;
+  line-height: 1.2em;
+  padding-top: 0;
+  padding-bottom: 0.4em;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-stroke: 0.2pt !important;
+}
+
+/* line 48, ../sass/screen.scss */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* line 54, ../sass/screen.scss */
+h2 {
+  font-size: 28px;
+}
+
+/* line 57, ../sass/screen.scss */
+h3 {
+  font-size: 20px;
+}
+
+/* line 62, ../sass/screen.scss */
+h4 {
+  font-size: 16px;
+}
+
+/* line 67, ../sass/screen.scss */
+h5 {
+  font-size: 14px;
+}
+
+/* line 72, ../sass/screen.scss */
+h6 {
+  font-size: 11px;
+}
+
+/* line 77, ../sass/screen.scss */
+a {
+  color: #1a295f;
+}
+/* line 79, ../sass/screen.scss */
+a:hover {
+  color: #cc0000;
+}
+
+/* line 83, ../sass/screen.scss */
+header {
+  background-image: url(../images/swirl-blue-top.png);
+  background-color: #dbdde4;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  height: 375px;
+  margin: 0 auto;
+  width: 800px;
+}
+
+/* == NAVIGATION == */
+/* ================ */
+/* line 3, ../sass/partials/_mainnav.scss */
+nav {
+  background-color: #8f93aa;
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 12, ../sass/partials/_mainnav.scss */
+nav ul {
+  width: 800px;
+}
+/* line 14, ../sass/partials/_mainnav.scss */
+nav ul li {
+  display: inline;
+  line-height: 38px;
+}
+/* line 17, ../sass/partials/_mainnav.scss */
+nav ul li a {
+  border-left: 1px solid #a2a8bc;
+  border-right: 1px solid #707898;
+  color: #dbdde4;
+  font-size: 0.8em;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+  padding-top: 10px;
+  padding-right: 12px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+}
+/* line 39, ../sass/partials/_mainnav.scss */
+nav ul li a:hover {
+  background-color: #535768;
+  color: #dbdde4;
+}
+/* line 45, ../sass/partials/_mainnav.scss */
+nav ul li a.current {
+  background-color: #535768;
+  color: #dbdde4;
+}
+
+/* line 100, ../sass/screen.scss */
+article {
+  background: #dbdde4;
+  height: 100%;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 800px;
+}
+/* line 111, ../sass/screen.scss */
+article li {
+  padding-bottom: 0.3em;
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: 2em;
+}
+/* line 117, ../sass/screen.scss */
+article li:last-child {
+  padding-bottom: 0.7em;
+}
+
+/* line 123, ../sass/screen.scss */
+img {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 129, ../sass/screen.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 132, ../sass/screen.scss */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #dbdde4;
+  background-image: -webkit-linear-gradient(left, #dbdde4, #848aa2, #dbdde4);
+  background-image: -moz-linear-gradient(left, #dbdde4, #a1a6b8, #dbdde4);
+  background-image: -ms-linear-gradient(left, #dbdde4, #a1a6b8, #dbdde4);
+  background-image: -o-linear-gradient(left, #dbdde4, #a1a6b8, #dbdde4);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 147, ../sass/screen.scss */
+footer {
+  background: #dbdde4;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 15px;
+  margin-left: auto;
+  text-align: center;
+  width: 800px;
+}
+
+/* line 167, ../sass/screen.scss */
+.main h2 {
+  padding-top: 0;
+}
+
+/* line 171, ../sass/screen.scss */
+.map {
+  float: left;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  margin-left: 0;
+  text-align: left;
+}
+/* line 172, ../sass/screen.scss */
+.map iframe {
+  border: 1px solid #acafc0;
+}
+
+/* line 184, ../sass/screen.scss */
+.right {
+  margin-right: 0;
+}
+
+/* line 187, ../sass/screen.scss */
+.orientation {
+  clear: both;
+}
+/* line 188, ../sass/screen.scss */
+.orientation h2 {
+  padding-top: 0.1em;
+}
+/* line 191, ../sass/screen.scss */
+.orientation p {
+  font-size: 0.9em;
+}
+
+/* line 196, ../sass/screen.scss */
+.locations {
+  background-color: #c9cbd6;
+  border: 1px solid #8f93aa;
+  color: black;
+  margin-top: 5px;
+  margin-left: 255px;
+  opacity: 0.5;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 212, ../sass/screen.scss */
+.italicize {
+  font-style: italic;
+}
+
+/* line 215, ../sass/screen.scss */
+.middle {
+  text-align: center;
+}
+
+/* line 218, ../sass/screen.scss */
+.accent {
+  color: #cc0000;
+}
+
+/* line 221, ../sass/screen.scss */
+.nopad {
+  padding: 0;
+  margin: -10px 0;
+}
+
+/* line 225, ../sass/screen.scss */
+.hrfoot {
+  clear: both;
+  padding: 0;
+  margin-top: 5px;
+  margin-right: 0;
+  margin-bottom: -10px;
+  margin-left: 0;
+}
+
+/* line 235, ../sass/screen.scss */
+.no-bottom-pad {
+  padding-bottom: 0;
+}
